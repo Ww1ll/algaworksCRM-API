@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 
-@Data //O lombok substitui o uso dos getters and setters e o hashcode e equals
+@Data
 @Entity
 public class Cliente {
 
